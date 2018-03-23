@@ -22,18 +22,43 @@
 
 🍱 Filler
 
+<br>
+
 ## Run
 
-⚡ Initial Mongod Bootup:
+Initial Mongod Bootup:
 ```bash
 mongod --directoryperdb --dbpath C:\Users\yuzhou\Dropbox\Tools\MongoDB\data\db
 ```
 
-⚡ On a new cmd window:
+On a new cmd window:
 ```bash
 mongo
 ```
+<br>
 
+
+
+## MongoDB Command
+
+Display dbs
+```bash
+> show dbs
+```
+
+Create and switch to `mycustomers` db
+```bash
+> use mycustomers
+```
+
+Create a `user1` user on `mycustomers` database:
+```bash
+db.createUser( { user: "user1",
+                 pwd: "123",
+                 customData: { employeeId: 123 },
+                 roles: ["readWrite", "dbAdmin"]
+               });
+```
 
 
 ## External Libraries
