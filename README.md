@@ -22,6 +22,19 @@
 
 🍱 Filler
 
+## Run
+
+⚡ Initial Mongod Bootup:
+```bash
+mongod --directoryperdb --dbpath C:\Users\yuzhou\Dropbox\Tools\MongoDB\data\db
+```
+
+⚡ On a new cmd window:
+```bash
+mongo
+```
+
+
 
 ## External Libraries
 
