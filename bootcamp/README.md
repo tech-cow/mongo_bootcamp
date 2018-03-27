@@ -1,5 +1,5 @@
 <h3 style="text-align:center;font-weight: 300;" align="center">
-  <img src="img/mongodb.png" width="150px">
+  <img src="/img/mongodb.png" width="150px">
 </h3>
 
 <p align="center">
