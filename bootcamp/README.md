@@ -9,7 +9,7 @@
 </p>
 
 
-> Natours: Let's make some CSS, I mean... Legit looking CSS 🔥
+> Boss say go learn MongoDB, I say Ok!🔥
 
 ## Documents
 
