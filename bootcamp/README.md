@@ -15,14 +15,20 @@
 
 <!--  🍋 🍌 🍎 🍏 🍐 🍒 🍓 🥝 🍅 🥥 -->
 
-| Day           |   Topic | Link |
+<!-- | Day           |   Topic | Link |
 | ------------- |------------- |:-------------:|
 | `Day 1`     |  Positioning, Animation & Image Clipping  | [🍉](./docs/day1.md) |
 | `Day 2`     |  Specificity, Value Processing & Inheritance  | [🍑](./docs/day2.md) |
 | `Day 3`     |  Relative Sizing, BEM & BEM Refactoring  | [🍊](./docs/day3.md) |
 | `Day 4`     |  Sass Crash Course | [🍍](./docs/day4.md) |
 | `Day 5`     |  Sass Refactoring | [🍇](./docs/day5.md) |
-| `Day 6`     |  Grid | [🍈](./docs/day6.md) |
+| `Day 6`     |  Grid | [🍈](./docs/day6.md) | -->
+
+
+| Day           |   Topic | Link |
+| ------------- |------------- |:-------------:|
+| `Day 1`     |  Mongoose Models  | [🍉](./docs/day1.md) |
+
 
 ## License
 
