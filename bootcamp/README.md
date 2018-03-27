@@ -27,7 +27,8 @@
 
 | Day           |   Topic | Link |
 | ------------- |------------- |:-------------:|
-| `Day 1`     |  Mongoose Models  | [🍉](./docs/day1.md) |
+| `Day 1`     |  Mongo CRUD: Mongoose Model   | [🍉](./docs/day1.md) |
+| `Day 1`     |  Mongo CRUD: Testing with Mocha   | [🍉](./docs/day2.md) |
 
 
 ## License
