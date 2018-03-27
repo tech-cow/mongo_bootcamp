@@ -13,7 +13,7 @@
 
 <br>
 
-![]("/img/mongoCRUD_projectStructure.PNG")
+![](/img/mongoCRUD_projectStructure.PNG)
 
 🍉 `test`:  test
 ```css
