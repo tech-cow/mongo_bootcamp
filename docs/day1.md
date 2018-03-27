@@ -11,8 +11,11 @@
 
 #### Day 1: Mongo CRUD: Mongoose Model
 
-🍉 `test`:  test
+<br>
 
+![]("/img/mongoCRUD_projectStructure.PNG")
+
+🍉 `test`:  test
 ```css
 test
 ```

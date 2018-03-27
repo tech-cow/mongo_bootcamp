@@ -1,5 +1,5 @@
 <h3 style="text-align:center;font-weight: 300;" align="center">
-  <img src="img/readme.png" width="100%">
+  <img src="/img/mongodb.png" width="150px">
 </h3>
 
 <p align="center">
@@ -9,68 +9,27 @@
 </p>
 
 
+> Boss say go learn MongoDB, I say Ok!🔥
 
-> Well A lot of learn about MongoDB - MY MANG
+## Documents
 
-## Things to Learn
+<!--  🍋 🍌 🍎 🍏 🍐 🍒 🍓 🥝 🍅 🥥 -->
 
-🔥 Filler
-
-⚡ Filler
-
-💥 Filler
-
-🍱 Filler
-
-<br>
-
-## Run
-
-Initial Mongod Bootup:
-```bash
-mongod --directoryperdb --dbpath C:\Users\yuzhou\Dropbox\Tools\MongoDB\data\db
-```
-
-On a new cmd window:
-```bash
-mongo
-```
-<br>
+<!-- | Day           |   Topic | Link |
+| ------------- |------------- |:-------------:|
+| `Day 1`     |  Positioning, Animation & Image Clipping  | [🍉](./docs/day1.md) |
+| `Day 2`     |  Specificity, Value Processing & Inheritance  | [🍑](./docs/day2.md) |
+| `Day 3`     |  Relative Sizing, BEM & BEM Refactoring  | [🍊](./docs/day3.md) |
+| `Day 4`     |  Sass Crash Course | [🍍](./docs/day4.md) |
+| `Day 5`     |  Sass Refactoring | [🍇](./docs/day5.md) |
+| `Day 6`     |  Grid | [🍈](./docs/day6.md) | -->
 
 
+| Day           |   Topic | Link |
+| ------------- |------------- |:-------------:|
+| `Day 1`     |  Mongo CRUD: Mongoose Model   | [🍉](./docs/day1.md) |
+| `Day 1`     |  Mongo CRUD: Testing with Mocha   | [🍉](./docs/day2.md) |
 
-## MongoDB Command
-
-Display dbs
-```bash
-> show dbs
-```
-
-Create and switch to `mycustomers` db
-```bash
-> use mycustomers
-```
-
-Create a `user1` user on `mycustomers` database:
-```bash
-db.createUser( { user: "user1",
-                 pwd: "123",
-                 customData: { employeeId: 123 },
-                 roles: ["readWrite", "dbAdmin"]
-               });
-```
-
-
-## External Libraries
-
-Third Party libraries are used in this Learning
-
-| Package           |   Description |
-| ------------- |:-------------:|
-| `example`     |  Blah  |
-
-
-#### Image Source: [Dribbble](https://dribbble.com/shots/4382078-Sunshine?utm_source=gold_browser_extension)
 
 ## License
 
@@ -78,7 +37,6 @@ Third Party libraries are used in this Learning
 
 ---
 
-> ![home](http://yuzhoujr.com/emoji/home.svg)
-[yuzhoujr.com](http://www.yuzhoujr.com) &nbsp;&middot;&nbsp;
+> ![home](http://yuzhoujr.com/emoji/home.svg) [yuzhoujr.com](http://www.yuzhoujr.com) &nbsp;&middot;&nbsp;
 > ![github](http://yuzhoujr.com/emoji/github.svg)  [@yuzhoujr](https://github.com/yuzhoujr) &nbsp;&middot;&nbsp;
 > ![linkedin](http://yuzhoujr.com/emoji/linkedin.svg)  [@yuzhoujr](https://linkedin.com/in/yuzhoujr)
