@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 // DB的规章制定
 const UserSchema = new Schema({
-  name: String;
+  name: String
 });
 
 // 创建Model/Class, Pass in DB的规章制度

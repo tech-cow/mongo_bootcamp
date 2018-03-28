@@ -27,10 +27,13 @@ mongoose.connect('mongodb://localhost/users_test');
 
 //Once and On are both event handler, are here to test if mongo run smoothly
 mongoose.connection
-  .once('open', () => console.log('Good to go!'))
-  .on('error', (error) => {
+  .once('open', function() {
+    console.log('Good to go!')
+  })
+  .on('error', function(error) {
     console.warn('Warning', error);
   });
+
 ```
 
 
