@@ -8,6 +8,8 @@
   <img src="https://img.shields.io/badge/build-passing-yellow.svg?style=flat-square">
 </p>
 
+<br>
+<br>
 
 #### Day 1: Mongo CRUD: Mongoose Model
 
@@ -15,9 +17,20 @@
 
 ![](/img/mongoCRUD_projectStructure.PNG)
 
-🍉 `test`:  test
-```css
-test
+🍉 `test_helper.js`: Set up Mongoose
+```js
+// This is basically include, save the module to a const, then we can access its API.
+const mongoose = require('mongoose');
+
+//Tell Mongoose to connect to our MongoDB, and to DB "users_test"
+mongoose.connect('mongodb://localhost/users_test');
+
+//Once and On are both event handler, are here to test if mongo run smoothly
+mongoose.connection
+  .once('open', () => console.log('Good to go!'))
+  .on('error', (error) => {
+    console.warn('Warning', error);
+  });
 ```
 
 
