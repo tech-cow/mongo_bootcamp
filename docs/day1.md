@@ -33,7 +33,6 @@ mongoose.connection
   });
 ```
 
-//  🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🍈 🍒 🍑 🍍 🥝 🥑 🍅 🍆 🥒
 
 🍏 `user.js`: Set up UserSchema, then apply into our UserModel, export UserModel so our testfile can access it.
 
